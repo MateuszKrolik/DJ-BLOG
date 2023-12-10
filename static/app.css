@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Open Sans', 'Lato', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
+#main-navigation {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#main-navigation a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+#main-navigation a:hover,
+#main-navigation a:active {
+  color: #cf79f1;
+}
+
+#main-navigation h1 a:hover,
+#main-navigation h1 a:active {
+  color: white;
+}
+
+@media only screen and (max-width: 800px) {
+
+  #main-navigation {
+    padding-left: 1rem; /* add left padding */
+    align-items: center;
+  }
+
+  #welcome header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem; /* add this */
+    box-sizing: border-box; /* include padding in total width */
+    width: 100%; /* ensure the container takes up the full width */
+  }
+
+  #welcome img {
+    margin: 1rem auto; /* adjust as needed */
+    width: 80%; /* adjust as needed */
+    max-width: 300px;
+  }
+
+  #welcome h2 {
+    text-align: left; /* align text to the left */
+  }
+}

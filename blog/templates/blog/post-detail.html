@@ -1,0 +1,40 @@
+{% extends "base.html" %} 
+{% load static %}
+
+{% block title %}
+    This Post Title
+{% endblock %}
+
+{% block css_files %}
+    <link rel="stylesheet" href="{% static "blog/post-detail.css" %}" />
+{% endblock %}
+
+{% block content %}
+    <section id="summary">
+        <h2>Post Title</h2>
+        <article>
+            <img src="{% static "blog/images/beach.jpg" %}" alt="Post Title" />
+            <address>By Mateusz</address>
+            <div>
+                Last updated on <time>December 11th</time>
+            </div>
+            <main>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet dolorum 
+                    architecto non similique veritatis voluptatum delectus aperiam earum, 
+                    deserunt totam nemo ipsam! Ex explicabo corrupti sequi ratione doloribus optio ea?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet dolorum 
+                    architecto non similique veritatis voluptatum delectus aperiam earum, 
+                    deserunt totam nemo ipsam! Ex explicabo corrupti sequi ratione doloribus optio ea?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet dolorum 
+                    architecto non similique veritatis voluptatum delectus aperiam earum, 
+                    deserunt totam nemo ipsam! Ex explicabo corrupti sequi ratione doloribus optio ea?
+                </p>
+            </main>
+        </article> 
+    </section>
+{% endblock %}

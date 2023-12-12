@@ -26,15 +26,16 @@
     </article>
 </section>
 
-        <main>             
-            {{post.content|linebreaks}}
-        </main>
-        
-        <div>
-            <form>
-                
-            </form>
-        </div>
+<main>             
+    {{post.content|linebreaks}}
+</main>
+
+<div>
+    <form>
+        {{comment_form}}
+        <button>Save Comment</button>
+    </form>
+</div>
 
     </article> 
 {% endblock %}

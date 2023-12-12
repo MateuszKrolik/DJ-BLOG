@@ -19,5 +19,6 @@ def posts(request):
 def post_detail(request, slug):
     indentified_post = get_object_or_404(Post, slug=slug)
     return render(request, "blog/post-detail.html", {
-        "post": indentified_post
+        "post": indentified_post,
+        "post_tags": indentified_post.tags.all()
     })

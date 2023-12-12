@@ -10,22 +10,31 @@
 {% endblock %}
 
 {% block content %}
-    <section id="summary">
-        <h2>{{post.title}}</h2>
+<section id="summary">
+    <h2>{{post.title}}</h2>
+    <div>
+        {%for tag in post_tags%}
+            <span class="tag">{{tag.caption}}</span>
+        {%endfor%}
+    </div>
+    <article>
+        <img src="{{post.image.url}}" alt="{{post.title}}" />
+        <address>By <a href="mailto:{{post.author.email_address}}">{{post.author}}</a></address>
         <div>
-            {%for tag in post_tags%}
-                <span class="tag">{{tag.caption}}</span>
-            {%endfor%}
+            Last updated on <time>{{post.date|date:"d M y"}}</time>
         </div>
-        <article>
-            <img src="{{post.image.url}}" alt="{{post.title}}" />
-            <address>By <a href="mailto:{{post.author.email_address}}">{{post.author}}</a></address>
-            <div>
-                Last updated on <time>{{post.date|date:"d M y"}}</time>
-            </div>
-            <main>             
-                {{post.content|linebreaks}}
-            </main>
-        </article> 
-    </section>
+    </article>
+</section>
+
+        <main>             
+            {{post.content|linebreaks}}
+        </main>
+        
+        <div>
+            <form>
+                
+            </form>
+        </div>
+
+    </article> 
 {% endblock %}

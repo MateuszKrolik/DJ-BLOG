@@ -86,3 +86,10 @@ class SinglePostView(View):
 #         "post": indentified_post,
 #         "post_tags": indentified_post.tags.all()
 #     })
+
+class ReadLaterView(View):
+
+    def post(self, request):
+        pass
+
+    

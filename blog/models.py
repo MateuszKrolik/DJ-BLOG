@@ -32,6 +32,9 @@ class Post(models.Model):
         Author, on_delete=models.SET_NULL, null=True, related_name="posts")
     tags = models.ManyToManyField(Tag)
 
+    def __str__(self):
+        return self.title
+
 
 class Comment(models.Model):
     user_name = models.CharField(max_length=120)

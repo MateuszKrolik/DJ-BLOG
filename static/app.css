@@ -48,29 +48,28 @@ h3 {
   color: white;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 850px) {
+  body { 
+    padding-top: 6rem; 
+  }
 
   #main-navigation {
-    padding-left: 1rem; /* add left padding */
-    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    height: auto;
+    z-index: 9999; 
+    background: linear-gradient(to right bottom, #6305dd, #390281); /* Add this line */
   }
 
-  #welcome header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem; /* add this */
-    box-sizing: border-box; /* include padding in total width */
-    width: 100%; /* ensure the container takes up the full width */
+  #main-navigation h1,
+  #main-navigation nav {
+    text-align: center;
+    width: 100%; 
   }
 
-  #welcome img {
-    margin: 1rem auto; /* adjust as needed */
-    width: 80%; /* adjust as needed */
-    max-width: 300px;
-  }
-
-  #welcome h2 {
-    text-align: left; /* align text to the left */
+  #main-navigation nav {
+    margin-top: 1rem;
+    display: block; 
+    flex-shrink: 0; 
   }
 }

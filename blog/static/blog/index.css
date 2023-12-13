@@ -37,7 +37,7 @@
     background-color: white;
     padding: 2rem;
     border-radius: 12px;
-    width: 60rem;
+    width: 100%;
     margin: -6rem auto 2rem auto;
     box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.4);
   }
@@ -74,43 +74,33 @@
     color: #353535;
   }
 
-  @media only screen and (max-width: 800px) {
-    #welcome {
-      padding: 3rem 5%;
-    }
-
+  @media only screen and (max-width: 850px) {
     #welcome header {
-      padding: 0 2rem;
-      display: flex;
-      flex-direction: row; /* stack the elements vertically */
-      align-items: center; /* center the elements horizontally */
-      justify-content: space-around;
-    }  
-
-    #welcome img {
-      flex-shrink: 0; /* add this */
-      margin-right: 0.5rem; /* add right margin */
-    }  
-
-    #welcome h2 {
-      width: 60%; /* give h2 a specific width */
-      overflow: hidden; /* hide the overflow */
-      text-overflow: ellipsis; /* replace the overflow with an ellipsis */
-      text-align: left;
-      margin-left: 0.5rem;
-      }
-  
-    #main-navigation {
-      padding-left: 1rem; 
+      flex-direction: column;
       align-items: center;
+      text-align: center;
     }
   
-    #main-navigation a {
-      margin-left: 0;
+    #welcome img {
+      margin-bottom: 1rem;
+    }
+  
+    #welcome h2 {
+      font-size: 2.5rem;
+      margin: 0;
+      width: auto;
     }
   
     #latest-posts {
-      width: 90%;
-      margin-top: 2rem;
+      width: 100%;
+      margin: 2rem auto;
+    }
+  
+    #latest-posts ul {
+      flex-direction: column;
+    }
+  
+    #latest-posts li {
+      margin-bottom: 1rem;
     }
   }

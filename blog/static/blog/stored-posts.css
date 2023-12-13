@@ -38,3 +38,17 @@
 #stored-posts a:active {
     background-color: #ccc;
 }
+
+@media (max-width: 850px) {
+    #stored-posts {
+      width: 100%;
+    }
+  
+    #main-content {
+      margin-top: 2rem;
+    }
+  
+    main {
+      margin-top: 2rem;
+    }
+  }

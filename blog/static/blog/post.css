@@ -41,3 +41,9 @@
   .post:active time {
     color: white;
   }
+
+  @media (max-width: 850px) {
+    .post {
+      width: 100%;
+    }
+  }

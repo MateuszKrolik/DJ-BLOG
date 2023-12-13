@@ -201,3 +201,28 @@ main {
 #comments h2 {
   color: #464646
 }
+
+@media (max-width: 850px) {
+  #summary {
+    width: 100%;
+    height: auto;
+  }
+
+  #main-content {
+    margin-top: 2rem;
+  }
+
+  #summary article {
+    position: static;
+    padding: 1rem 0;
+  }
+
+  #summary article img {
+    width: 100%;
+    height: auto;
+  }
+
+  main {
+    margin-top: 2rem;
+  }
+}

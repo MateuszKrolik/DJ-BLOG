@@ -3,4 +3,5 @@ Django==5.0
 gunicorn==21.2.0
 packaging==23.2
 Pillow==10.1.0
+python-dotenv==1.0.0
 sqlparse==0.4.4

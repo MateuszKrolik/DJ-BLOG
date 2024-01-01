@@ -1,1 +1,1 @@
-# django-blog-mateusz-krolik
+# DJ-BLOG

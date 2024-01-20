@@ -186,7 +186,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Mateusz Królik - mateuszkrolik87@gmail.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/MateuszKrolik/DJ-BLOG)
+Project Link: [https://github.com/MateuszKrolik/DJ-BLOG](django-blog2-env.eba-fervsqvb.eu-north-1.elasticbeanstalk.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

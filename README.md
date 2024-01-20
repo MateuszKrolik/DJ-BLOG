@@ -151,7 +151,7 @@ I also suggest setting up a virtual environment
     - [x] Tag functionality
 
 
-See the [open documentation](https://github.com/MateuszKrolik/DJ-BLOG/documentation) for a full list of proposed features (and known issues).
+See the [open documentation](https://github.com/MateuszKrolik/DJ-BLOG/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

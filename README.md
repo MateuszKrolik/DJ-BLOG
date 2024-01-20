@@ -36,7 +36,7 @@
 <h3 align="center">Django Blog</h3>
 
   <p align="center">
-    project_description
+    Personal Django Blog
     <br />
     <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
     <br />
@@ -71,7 +71,6 @@
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -100,6 +99,10 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 - [![HTML5][HTML5.com]][HTML5-url]
 - [![CSS3][CSS3.com]][CSS3-url]
 - [![Python][Python.com]][Python-url]
+- [![AWS RDS][AWS-RDS.com]][AWS-RDS-url]
+- [![AWS EBS][AWS-EBS.com]][AWS-EBS-url]
+- [![AWS S3][AWS-S3.com]][AWS-S3-url]
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -191,23 +194,25 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Mateusz Królik - mateuszkrolik87@gmail.com
 
-Project Link: [https://github.com/MateuszKrolik/DJ-BLOG](django-blog2-env.eba-fervsqvb.eu-north-1.elasticbeanstalk.com/)
+Project Link: [http://django-blog2-env.eba-fervsqvb.eu-north-1.elasticbeanstalk.com/](http://django-blog2-env.eba-fervsqvb.eu-north-1.elasticbeanstalk.com/)
+
+Project Repository Link: [https://github.com/MateuszKrolik/DJ-BLOG](https://github.com/MateuszKrolik/DJ-BLOG)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/MateuszKrolik/DJ-BLOG.svg?style=for-the-badge
+[contributors-url]: https://github.com/MateuszKrolik/DJ-BLOG/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/MateuszKrolik/DJ-BLOG.svg?style=for-the-badge
+[forks-url]: https://github.com/MateuszKrolik/DJ-BLOG/network/members
+[stars-shield]: https://img.shields.io/github/stars/MateuszKrolik/DJ-BLOG.svg?style=for-the-badge
+[stars-url]: https://github.com/MateuszKrolik/DJ-BLOG/stargazers
+[issues-shield]: https://img.shields.io/github/issues/MateuszKrolik/DJ-BLOG.svg?style=for-the-badge
+[issues-url]: https://github.com/MateuszKrolik/DJ-BLOG/issues
+[license-shield]: https://img.shields.io/github/license/MateuszKrolik/DJ-BLOG.svg?style=for-the-badge
+[license-url]: https://github.com/MateuszKrolik/DJ-BLOG/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot-1]: images/screenshot-1.png
@@ -236,3 +241,11 @@ Project Link: [https://github.com/MateuszKrolik/DJ-BLOG](django-blog2-env.eba-fe
 [CSS3-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
 [Python.com]: https://img.shields.io/badge/Python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white
 [Python-url]: https://www.python.org/
+[AWS-RDS.com]:https://img.shields.io/badge/AWS_RDS-%23FF9900.svg?style=for-the-badge&logo=amazonrds&logoColor=white
+[AWS-RDS-url]: https://aws.amazon.com/rds/
+
+[AWS-EBS.com]:https://img.shields.io/badge/AWS_EBS-%23009639.svg?style=for-the-badge&logo=amazonec2&logoColor=white
+[AWS-EBS-url]: https://aws.amazon.com/ebs/
+
+[AWS-S3.com]: https://img.shields.io/badge/AWS_S3-%236044D1.svg?style=for-the-badge&logo=amazons3&logoColor=white
+[AWS-S3-url]: https://aws.amazon.com/s3/

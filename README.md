@@ -83,11 +83,8 @@
 [![Product Name Screen Shot][product-screenshot-4]]([https://example.com](http://django-blog2-env.eba-fervsqvb.eu-north-1.elasticbeanstalk.com/read-later))
 [![Product Name Screen Shot][product-screenshot-5]](http://django-blog2-env.eba-fervsqvb.eu-north-1.elasticbeanstalk.com/admin/login/?next=/admin/)
 [![Product Name Screen Shot][product-screenshot-6]](http://django-blog2-env.eba-fervsqvb.eu-north-1.elasticbeanstalk.com/admin/)
-[![Product Name Screen Shot][product-screenshot-6]](http://django-blog2-env.eba-fervsqvb.eu-north-1.elasticbeanstalk.com/admin/)
-[![Product Name Screen Shot][product-screenshot-6]](http://django-blog2-env.eba-fervsqvb.eu-north-1.elasticbeanstalk.com/admin/blog/post/add/)
-
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+[![Product Name Screen Shot][product-screenshot-7]](http://django-blog2-env.eba-fervsqvb.eu-north-1.elasticbeanstalk.com/admin/blog/post/add/)
+[![Product Name Screen Shot][product-screenshot-8]](http://django-blog2-env.eba-fervsqvb.eu-north-1.elasticbeanstalk.com/admin/blog/post/add/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -127,7 +124,7 @@ I also suggest setting up a virtual environment
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/MateuszKrolik/DJ-BLOG.git
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -213,6 +210,9 @@ Project Repository Link: [https://github.com/MateuszKrolik/DJ-BLOG](https://gith
 [product-screenshot-4]: images/screenshot-4.png
 [product-screenshot-5]: images/screenshot-5.png
 [product-screenshot-6]: images/screenshot-6.png
+[product-screenshot-7]: images/screenshot-7.png
+[product-screenshot-8]: images/screenshot-8.png
+
 
 [Django.com]: https://img.shields.io/badge/Django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white]
 [Django-url]:https://www.djangoproject.com

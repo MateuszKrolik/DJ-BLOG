@@ -38,14 +38,14 @@
   <p align="center">
     Personal Django Blog
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/MateuszKrolik/DJ-BLOG"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/MateuszKrolik/DJ-BLOG">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/MateuszKrolik/DJ-BLOG/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/MateuszKrolik/DJ-BLOG/issues">Request Feature</a>
   </p>
 </div>
 
@@ -66,8 +66,7 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#roadmap--usage">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -83,7 +82,10 @@
 [![Product Name Screen Shot][product-screenshot-3]]([https://example.com](http://django-blog2-env.eba-fervsqvb.eu-north-1.elasticbeanstalk.com/posts/title))
 [![Product Name Screen Shot][product-screenshot-4]]([https://example.com](http://django-blog2-env.eba-fervsqvb.eu-north-1.elasticbeanstalk.com/read-later))
 [![Product Name Screen Shot][product-screenshot-5]](http://django-blog2-env.eba-fervsqvb.eu-north-1.elasticbeanstalk.com/admin/login/?next=/admin/)
-[![Product Name Screen Shot][product-screenshot-6]](https://example.com)
+[![Product Name Screen Shot][product-screenshot-6]](http://django-blog2-env.eba-fervsqvb.eu-north-1.elasticbeanstalk.com/admin/)
+[![Product Name Screen Shot][product-screenshot-6]](http://django-blog2-env.eba-fervsqvb.eu-north-1.elasticbeanstalk.com/admin/)
+[![Product Name Screen Shot][product-screenshot-6]](http://django-blog2-env.eba-fervsqvb.eu-north-1.elasticbeanstalk.com/admin/blog/post/add/)
+
 
 Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
 
@@ -110,56 +112,46 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+When setting up the project locally, I suggest adding own custom environment variables via a .env file, 
+as well as on the hosting providers side.
+
+I also suggest making migrations and migrating when making changes to the database.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+You should have Python3 and PostgreSQL drivers installed. 
 
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
+I also suggest setting up a virtual environment
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/github_username/repo_name.git
    ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = "ENTER YOUR API";
-   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- USAGE EXAMPLES -->
+<!-- ROADMAP & USAGE -->
 
-## Usage
+## Roadmap & Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+- [x] Responsive landing page with navigation
+- [x] All posts page
+- [x] Post detail page
+  - [x] Tag Display Functionality
+  - [x] "Add to Read Later" button functionality
+  - [x] Redirect to post's author mail client through Admin Panel functionality
+  - [x] Add, Save & Post comment for non-logged in users functionality
+- [x] Read Later Page with saved posts display functionality
+- [x] Authentication & Authorization using Django's Admin Panel
+- [x] Customized Admin Panel
+  - [x] Add post page
+    - [x] Image Upload with Image from Disk Picker via AWS S3
+    - [x] Tag functionality
 
-_For more examples, please refer to the [Documentation](https://example.com)_
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ROADMAP -->
-
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-  - [ ] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+See the [open documentation](https://github.com/MateuszKrolik/DJ-BLOG/documentation) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -214,7 +206,7 @@ Project Repository Link: [https://github.com/MateuszKrolik/DJ-BLOG](https://gith
 [license-shield]: https://img.shields.io/github/license/MateuszKrolik/DJ-BLOG.svg?style=for-the-badge
 [license-url]: https://github.com/MateuszKrolik/DJ-BLOG/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://www.linkedin.com/in/mateusz-kr%C3%B3lik-8b1862262/
 [product-screenshot-1]: images/screenshot-1.png
 [product-screenshot-2]: images/screenshot-2.png
 [product-screenshot-3]: images/screenshot-3.png

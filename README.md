@@ -79,7 +79,12 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot-1]](http://django-blog2-env.eba-fervsqvb.eu-north-1.elasticbeanstalk.com/)
+[![Product Name Screen Shot][product-screenshot-2]](http://django-blog2-env.eba-fervsqvb.eu-north-1.elasticbeanstalk.com/posts)
+[![Product Name Screen Shot][product-screenshot-3]]([https://example.com](http://django-blog2-env.eba-fervsqvb.eu-north-1.elasticbeanstalk.com/posts/title))
+[![Product Name Screen Shot][product-screenshot-4]]([https://example.com](http://django-blog2-env.eba-fervsqvb.eu-north-1.elasticbeanstalk.com/read-later))
+[![Product Name Screen Shot][product-screenshot-5]](http://django-blog2-env.eba-fervsqvb.eu-north-1.elasticbeanstalk.com/admin/login/?next=/admin/)
+[![Product Name Screen Shot][product-screenshot-6]](https://example.com)
 
 Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
 
@@ -205,7 +210,12 @@ Project Link: [https://github.com/MateuszKrolik/DJ-BLOG](django-blog2-env.eba-fe
 [license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot.png
+[product-screenshot-1]: images/screenshot-1.png
+[product-screenshot-2]: images/screenshot-2.png
+[product-screenshot-3]: images/screenshot-3.png
+[product-screenshot-4]: images/screenshot-4.png
+[product-screenshot-5]: images/screenshot-5.png
+[product-screenshot-6]: images/screenshot-6.png
 
 [Django.com]: https://img.shields.io/badge/Django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white]
 [Django-url]:https://www.djangoproject.com

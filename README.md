@@ -43,9 +43,9 @@
     <br />
     <a href="https://github.com/MateuszKrolik/DJ-BLOG">View Demo</a>
     ·
-    <a href="https://github.com/MateuszKrolik/DJ-BLOG/issues/new?template=bug_report.md">Report Bug</a>
+    <a href="https://github.com/MateuszKrolik/DJ-BLOG/issues/new">Report Bug</a>
     ·
-    <a href="https://github.com/MateuszKrolik/DJ-BLOG/issues/new?template=feature_request.md">Request Feature</a>
+    <a href="https://github.com/MateuszKrolik/DJ-BLOG/issues/new"">Request Feature</a>
   </p>
 </div>
 

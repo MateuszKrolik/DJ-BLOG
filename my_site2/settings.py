@@ -29,6 +29,7 @@ SECRET_KEY = getenv("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = getenv("IS_DEVELOPMENT") 
 
+# ALLOWED_HOSTS = getenv("APP_HOST", "localhost").split(",")
 ALLOWED_HOSTS = [
     getenv("APP_HOST")
 ]

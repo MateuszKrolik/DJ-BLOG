@@ -1,23 +1,4 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
-
 <a name="readme-top"></a>
-
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -29,23 +10,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/MateuszKrolik/DJ-BLOG">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Django Blog</h3>
 
   <p align="center">
-    project_description
+    Personal Django Blog
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/MateuszKrolik/DJ-BLOG"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/MateuszKrolik/DJ-BLOG">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/MateuszKrolik/DJ-BLOG/issues/new?assignees=&labels=bug&projects=&template=bug-report.md" >Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/MateuszKrolik/DJ-BLOG/issues/new?assignees=&labels=enhancement&projects=&template=feature-request.md">Request Feature</a>
   </p>
 </div>
 
@@ -66,12 +47,10 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#roadmap--usage">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -79,9 +58,15 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+[![Product Name Screen Shot][product-screenshot-1]](http://django-blog2-env.eba-fervsqvb.eu-north-1.elasticbeanstalk.com/)
+![pgSQL_schema](images/pgSQL_schema.png)
+[![Product Name Screen Shot][product-screenshot-2]](http://django-blog2-env.eba-fervsqvb.eu-north-1.elasticbeanstalk.com/posts)
+[![Product Name Screen Shot][product-screenshot-3]](<[https://example.com](http://django-blog2-env.eba-fervsqvb.eu-north-1.elasticbeanstalk.com/posts/title)>)
+[![Product Name Screen Shot][product-screenshot-4]](<[https://example.com](http://django-blog2-env.eba-fervsqvb.eu-north-1.elasticbeanstalk.com/read-later)>)
+[![Product Name Screen Shot][product-screenshot-5]](http://django-blog2-env.eba-fervsqvb.eu-north-1.elasticbeanstalk.com/admin/login/?next=/admin/)
+[![Product Name Screen Shot][product-screenshot-6]](http://django-blog2-env.eba-fervsqvb.eu-north-1.elasticbeanstalk.com/admin/)
+[![Product Name Screen Shot][product-screenshot-7]](http://django-blog2-env.eba-fervsqvb.eu-north-1.elasticbeanstalk.com/admin/blog/post/add/)
+[![Product Name Screen Shot][product-screenshot-8]](http://django-blog2-env.eba-fervsqvb.eu-north-1.elasticbeanstalk.com/admin/blog/post/add/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -95,6 +80,9 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 - [![HTML5][HTML5.com]][HTML5-url]
 - [![CSS3][CSS3.com]][CSS3-url]
 - [![Python][Python.com]][Python-url]
+- [![AWS RDS][AWS-RDS.com]][AWS-RDS-url]
+- [![AWS EBS][AWS-EBS.com]][AWS-EBS-url]
+- [![AWS S3][AWS-S3.com]][AWS-S3-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -102,56 +90,45 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+When setting up the project locally, I suggest adding own custom environment variables via a .env file,
+as well as on the hosting providers side.
+
+I also suggest making migrations and migrating when making changes to the database.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+You should have Python3 and PostgreSQL drivers installed.
 
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
+I also suggest setting up a virtual environment
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = "ENTER YOUR API";
+   git clone https://github.com/MateuszKrolik/DJ-BLOG.git
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- USAGE EXAMPLES -->
+<!-- ROADMAP & USAGE -->
 
-## Usage
+## Roadmap & Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+- [x] Responsive landing page with navigation
+- [x] All posts page
+- [x] Post detail page
+  - [x] Tag Display Functionality
+  - [x] "Add to Read Later" button functionality
+  - [x] Redirect to post's author mail client through Admin Panel functionality
+  - [x] Add, Save & Post comment for non-logged in users functionality
+- [x] Read Later Page with saved posts display functionality
+- [x] Authentication & Authorization using Django's Admin Panel
+- [x] Customized Admin Panel
+  - [x] Add post page
+    - [x] Image Upload with Image from Disk Picker via AWS S3
+    - [x] Tag functionality
 
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ROADMAP -->
-
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-  - [ ] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+See the [open documentation](https://github.com/MateuszKrolik/DJ-BLOG/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -184,38 +161,37 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Mateusz Królik - mateuszkrolik87@gmail.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [http://django-blog2-env.eba-fervsqvb.eu-north-1.elasticbeanstalk.com/](http://django-blog2-env.eba-fervsqvb.eu-north-1.elasticbeanstalk.com/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGMENTS -->
-
-## Acknowledgments
-
-- []()
-- []()
-- []()
+Project Repository Link: [https://github.com/MateuszKrolik/DJ-BLOG](https://github.com/MateuszKrolik/DJ-BLOG)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/MateuszKrolik/DJ-BLOG.svg?style=for-the-badge
+[contributors-url]: https://github.com/MateuszKrolik/DJ-BLOG/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/MateuszKrolik/DJ-BLOG.svg?style=for-the-badge
+[forks-url]: https://github.com/MateuszKrolik/DJ-BLOG/network/members
+[stars-shield]: https://img.shields.io/github/stars/MateuszKrolik/DJ-BLOG.svg?style=for-the-badge
+[stars-url]: https://github.com/MateuszKrolik/DJ-BLOG/stargazers
+[issues-shield]: https://img.shields.io/github/issues/MateuszKrolik/DJ-BLOG.svg?style=for-the-badge
+[issues-url]: https://github.com/MateuszKrolik/DJ-BLOG/issues
+[license-shield]: https://img.shields.io/github/license/MateuszKrolik/DJ-BLOG.svg?style=for-the-badge
+[license-url]: https://github.com/MateuszKrolik/DJ-BLOG/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot.png
+[linkedin-url]: https://www.linkedin.com/in/mateusz-kr%C3%B3lik-8b1862262/
+[product-screenshot-1]: images/screenshot-1.png
+[product-screenshot-2]: images/screenshot-2.png
+[product-screenshot-3]: images/screenshot-3.png
+[product-screenshot-4]: images/screenshot-4.png
+[product-screenshot-5]: images/screenshot-5.png
+[product-screenshot-6]: images/screenshot-6.png
+[product-screenshot-7]: images/screenshot-7.png
+[product-screenshot-8]: images/screenshot-8.png
 
 [Django.com]: https://img.shields.io/badge/Django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white]
 [Django-url]:https://www.djangoproject.com
@@ -236,3 +212,9 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [CSS3-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
 [Python.com]: https://img.shields.io/badge/Python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white
 [Python-url]: https://www.python.org/
+[AWS-RDS.com]: https://img.shields.io/badge/AWS_RDS-%23FF9900.svg?style=for-the-badge&logo=amazonrds&logoColor=white
+[AWS-RDS-url]: https://aws.amazon.com/rds/
+[AWS-EBS.com]: https://img.shields.io/badge/AWS_EBS-%23009639.svg?style=for-the-badge&logo=amazonec2&logoColor=white
+[AWS-EBS-url]: https://aws.amazon.com/ebs/
+[AWS-S3.com]: https://img.shields.io/badge/AWS_S3-%236044D1.svg?style=for-the-badge&logo=amazons3&logoColor=white
+[AWS-S3-url]: https://aws.amazon.com/s3/

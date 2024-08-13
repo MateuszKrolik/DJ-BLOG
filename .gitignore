@@ -191,3 +191,8 @@ Temporary Items
 .apdisk
 
 .vscode/
+
+# secrets
+.env
+old.env
+django_blog_dump.sql

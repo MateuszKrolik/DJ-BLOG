@@ -41,6 +41,10 @@ export class AwsCdkInfraStack extends cdk.Stack {
       this,
       '/django-blog/AWS_S3_REGION_NAME'
     );
+    const dbName = ssm.StringParameter.valueForStringParameter(
+      this,
+      '/django-blog/DB_NAME'
+    );
 
     // The code that defines your stack goes here
     const apiImageCode = DockerImageCode.fromImageAsset('../app', {
@@ -62,6 +66,8 @@ export class AwsCdkInfraStack extends cdk.Stack {
         DB_USER: dbUser,
         DB_PASSWORD: dbPassword,
         DB_HOST: dbHost,
+        DB_NAME: dbName,
+        DB_PORT: '50013', 
         AWS_STORAGE_BUCKET_NAME: awsStorageBucketName,
         AWS_S3_REGION_NAME: awsS3RegionName,
       },
